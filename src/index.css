@@ -1,0 +1,25 @@
+/* App.css */
+.app-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+  }
+  
+  .main-content {
+    display: flex;
+    flex: 1;
+  }
+  
+  .sidebar {
+    flex: 0 0 250px; /* Fixed width for sidebar */
+  }
+  
+  .content-area {
+    flex: 1;
+    padding: 20px;
+    overflow-y: auto; /* Allows scrolling for content */
+    background-color: #f9f9f9;
+  }
+  
+  
+  

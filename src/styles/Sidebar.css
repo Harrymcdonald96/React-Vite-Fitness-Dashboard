@@ -1,0 +1,96 @@
+/* Sidebar.css */
+.sidebar-container {
+  display: flex;
+  width: 203px; /* Standard width */
+  height: 100vh;
+  padding: 20px 24px 24px 24px;
+  flex-direction: column;
+  align-items: center;
+  flex-shrink: 0;
+  border-right: 1px solid var(--Slate-200, #E2E8F0);
+  background: #FFF;
+  box-shadow: 0px 12px 17px 2px rgba(0, 0, 0, 0.03), 0px 5px 22px 4px rgba(0, 0, 0, 0.02);
+  position: fixed;
+  top: 100px;
+  left: 0;
+  overflow-y: auto;
+}
+
+.logo-container {
+  width: 180px;
+  height: 100px;
+  text-align: center;
+  margin-bottom: 10px;
+  margin-top: 0px;
+}
+
+
+
+.separator {
+  width: 100%;
+  border-bottom: 1px solid var(--Slate-200, #E2E8F0);
+  margin-bottom: 20px;
+}
+
+.menu-link {
+  display: flex;
+  align-items: center;
+  color: black;
+  padding: 12px 16px;
+  gap: 16px;
+  border-radius: 8px;
+  align-self: stretch;
+  text-decoration: none;
+}
+
+.menu-link.active {
+  background-color: #EA955A;
+  color: white;
+}
+
+.icon {
+  margin-right: 10px;
+}
+
+/* Media Queries for Mobile Adjustments */
+/* Sidebar.css */
+@media (max-width: 768px) {
+  .sidebar-container {
+    width: 100%; /* Full width for mobile devices */
+    height: 60px; /* Set a fixed height for the navigation bar */
+    flex-direction: row;
+    justify-content: space-around; /* Evenly space the navigation icons */
+    align-items: center; /* Center-align items vertically */
+    bottom: 0;
+    top: auto;
+    left: 0;
+    padding: 10px 0;
+    border-top: 1px solid var(--Slate-200, #E2E8F0);
+    position: fixed; /* Keeps it at the bottom of the viewport */
+    background-color: #FFF; /* Ensures the background matches other headers */
+    
+    
+  }
+
+  .logo-container {
+    display: none; /* Hide the logo on mobile */
+  }
+
+  .menu-link {
+    flex: 1; /* Each link will take equal width */
+    justify-content: center; /* Center the icons horizontally */
+    align-items: center; /* Center the icons vertically */
+    padding: 0; /* Remove padding */
+    margin: 0; /* Remove margins */
+  }
+
+  .icon {
+    display: block; /* Ensure icons are visible */
+    width: 24px; /* Optional: adjust size as needed */
+    height: auto; /* Maintain aspect ratio */
+  }
+
+  .text-label {
+    display: none; /* Hide text labels from the navigation links */
+  }
+}

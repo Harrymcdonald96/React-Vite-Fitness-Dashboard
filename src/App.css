@@ -1,0 +1,46 @@
+/* App.css */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.main-content {
+  display: flex;
+  flex: 1;
+  padding-top: 65px; /* Ensure this matches the header height */
+}
+
+.sidebar {
+  width: 200px; /* Consistent width for sidebar */
+  height: 100vh;
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+}
+
+.content-area {
+  flex-grow: 1;
+  margin-left: 230px; /* Ensure this matches the sidebar width */
+  padding: 20px;
+  overflow-y: auto;
+  background-color: #f9f9f9;
+  height: calc(100vh - 65px); /* Adjust height based on header */
+}
+
+@media (max-width: 768px) {
+  .header {
+    display: flex; /* Ensure the header is visible on mobile */
+    justify-content: space-between; /* Adjust for mobile layout */
+    padding: 10px; /* Reduce padding for smaller screens */
+  }
+
+
+
+  .content-area {
+    margin-left: 0; /* Content takes full width on mobile */
+    padding: 10px; /* Adjust padding for smaller screens */
+  }
+  
+}
