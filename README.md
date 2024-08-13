@@ -19,8 +19,9 @@
 
 - Interactive Elements: Active state management in navigation to provide feedback on the current page, improving user orientation and engagement.
 
-![Screenshot of the To-Do App](src/assets/Screenshot%202024-08-13%20at%206.21.22%20pm.png)
-![Screenshot of the To-Do App](src/assets/Screenshot%202024-08-13%20at%206.21.37%20pm.png)
+
+![Screenshot of the To-Do App](src/assets/Screenshot%202024-08-13%20at%206.56.06%20pm.png)
+![Screenshot of the To-Do App](src/assets/Screenshot%202024-08-13%20at%206.56.53%20pm.png)
 
 
 # Future Features and Development Plans:
