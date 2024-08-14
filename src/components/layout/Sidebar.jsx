@@ -1,6 +1,6 @@
 import { NavLink } from 'react-router-dom';
 import { FiHome, FiActivity, FiBookOpen, FiTarget, FiCalendar, FiBarChart2, FiHelpCircle, FiLogOut } from 'react-icons/fi';
-import '/Users/imac/fitnessDashboard/src/styles/Sidebar.css'; // Import the CSS file
+import 'src/styles/Sidebar.css'; 
 
 // Sidebar component
 const Sidebar = () => {

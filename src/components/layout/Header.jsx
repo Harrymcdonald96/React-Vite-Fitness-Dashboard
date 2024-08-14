@@ -1,5 +1,5 @@
 import { FiSettings, FiBell } from 'react-icons/fi';
-import '/Users/imac/fitnessDashboard/src/styles/Header.css';
+import 'src/styles/Header.css';
 
 const Header = () => {
   return (
