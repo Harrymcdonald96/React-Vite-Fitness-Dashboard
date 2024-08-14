@@ -1,12 +1,12 @@
 import { FiSettings, FiBell } from 'react-icons/fi';
-import 'src/styles/Header.css';
+import '../../styles/Header.css';
 
 const Header = () => {
   return (
     <div className="header">
     <div className="logo-container">
-      <img src="src/assets/A-PEX.png" alt="A-PEX Fitness Logo" />
-    </div>
+    <img src="../../assets/A-PEX.png" alt="A-PEX Fitness Logo" />
+</div>
     <div className="vertical-divider"></div> 
     <div className="welcome-message">
       <span className="greeting">Good Morning!</span>
