@@ -5,7 +5,7 @@ const Header = () => {
   return (
     <div className="header">
     <div className="logo-container">
-    <img src="/A-PEX.png" alt="A-PEX Fitness Logo" />
+    <img src="/APEX.png" alt="A-PEX Fitness Logo" />
 
 </div>
     <div className="vertical-divider"></div> 
