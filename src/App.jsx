@@ -10,7 +10,7 @@ import Schedule from './components/pages/MySchedule';
 import Progress from './components/pages/Progress';
 import Help from './components/pages/Help';
 import Logout from './components/pages/Logout';
-import '/Users/imac/fitnessDashboard/src/App.css'
+import 'src/App.css'
 
 const App = () => {
   return (
