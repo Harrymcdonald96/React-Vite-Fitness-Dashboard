@@ -13,7 +13,7 @@ const Header = () => {
       <span className="user-welcome">Welcome Back!</span>
     </div>
     <div className="user-info">
-      <img src="/src/assets/Avatar w. photo.png" alt="User Profile" className="profile-pic"/>
+      <img src="/src/assets/AvatarPhoto.png" alt="User Profile" className="profile-pic"/>
       <FiBell className="notification-icon"/>
       <FiSettings className="settings-icon"/>
     </div>
