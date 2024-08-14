@@ -10,7 +10,7 @@ import Schedule from './components/pages/MySchedule';
 import Progress from './components/pages/Progress';
 import Help from './components/pages/Help';
 import Logout from './components/pages/Logout';
-import 'src/App.css'
+import './App.css'
 
 const App = () => {
   return (
