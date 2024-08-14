@@ -5,7 +5,7 @@ const Header = () => {
   return (
     <div className="header">
     <div className="logo-container">
-    <img src="/src/assets/A-PEX.png" alt="A-PEX Fitness Logo" />
+    <img src="../../A-PEX.png" alt="A-PEX Fitness Logo" />
 </div>
     <div className="vertical-divider"></div> 
     <div className="welcome-message">
@@ -13,7 +13,7 @@ const Header = () => {
       <span className="user-welcome">Welcome Back!</span>
     </div>
     <div className="user-info">
-      <img src="/src/assets/AvatarPhoto.png" alt="User Profile" className="profile-pic"/>
+      <img src="../../AvatarPhoto.png" alt="User Profile" className="profile-pic"/>
       <FiBell className="notification-icon"/>
       <FiSettings className="settings-icon"/>
     </div>
