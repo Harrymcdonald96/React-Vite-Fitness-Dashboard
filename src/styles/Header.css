@@ -59,7 +59,7 @@
 
 .notification-icon, .settings-icon {
   font-size: 24px;
-  color: #666;
+  color: #171717;
   margin-left: 10px;
 }
 
@@ -124,7 +124,7 @@
 
 .notification-icon, .settings-icon {
   font-size: 20px; /* Smaller icons for mobile */
-  color: #666;
+  color: #171717;
   margin-left: 5px; /* Reduced spacing for mobile */
 }
 
